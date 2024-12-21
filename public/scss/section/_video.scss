@@ -1,0 +1,22 @@
+/*==========================================================================
+* Video Area CSS
+==========================================================================*/
+.video__area {
+    background-image: url('/img/pages/video.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+    .video a {
+        width: 100px;
+        height: 100px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--primary-color-1);
+        color: var(--text-white);
+        border-radius: 50%;
+        font-size: 25px;
+    }
+}
